@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,500,600,700&display=swap');
+body { font-family: 'Poppins', sans-serif; }
+h1, h2, h3, h4, h5, h6 { color: #424242; }
+p { color: #575757; font-weight: 300; }
+li { color: #575757; }
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.bg-light {
+    background: none !important;
+    margin: 10px 0px;
+}
+.bg-light .navbar-nav .nav-link {
+    padding: 23px 22px;
+    color: #595959;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.bg-light .navbar-nav .nav-link:hover {
+    color: #1f9725;
+    font-weight: 600;
+}
+.bg-light .navbar-nav .active .nav-link {
+    color: #1f9725;
+    font-weight: 600;
+}
+.navbar-brand img {
+    width: 170px;
+}
+/* //navbar */
+
+/* home banner */
+.home-banner .carousel-caption{
+    position: absolute;
+    left: 52%;
+    right: 0;
+    top: 32%;
+}
+.home-banner .carousel-caption h1 {
+    color: #fff;
+    font-weight: 600;
+    /* font-size: 36px; */
+}
+/* //home banner */
+
+/* CTA line */
+.cta-line h2 {
+    line-height: 48px;
+    font-size: 30px;
+    font-weight: 500;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 14px 0px;
+}
+.cta-line span {
+    color: #b93795;
+    font-weight: 700;
+}
+.cta-line i {
+    font-style: normal;
+    font-weight: 700;
+    color: #133852;
+}
+/* //CTA line */
+
+/* simple steps */
+.simple-steps h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+.simple-steps h3 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #133852;
+}
+.simple-steps-text h4 {
+    margin-top: 110px;
+    color: #133852;
+}
+.simple-steps-text p {
+    font-size: 17px;
+    margin-top: 15px;
+    line-height: 28px;
+    font-weight: 400;
+}
+/* //simple steps */
+
+/* how we grow */
+.how-we-grow {
+    background-color: #f1f1f1;
+}
+.how-we-grow h4 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #133852;
+    margin-bottom: 13px;
+}
+.how-we-grow p {
+    font-size: 17px;
+    line-height: 28px;
+}
+.how-we-grow .card-body p {
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: 14px;
+    text-align: justify;
+}
+.how-we-grow .card-body {
+    padding: 20px 20px;
+}
+.how-we-grow .card-body h2 {
+    color: #133852;
+    font-size: 30px;
+}
+.how-we-grow-list p {
+    margin-top: 10px;
+}
+.how-we-grow-list img {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.how-we-grow-list .btn-info {
+    background-color: #b93795;
+    border-color: #b93795;
+    border-radius: 100px;
+    padding: 13px 23px;
+    font-weight: 600;
+}
+/* //how we grow */
+
+
+
+
+
+
