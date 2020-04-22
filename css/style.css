@@ -28,7 +28,7 @@ html {
     font-weight: 600;
 }
 .navbar-brand img {
-    width: 170px;
+    width: 210px;
 }
 /* //navbar */
 
@@ -131,6 +131,151 @@ html {
     font-weight: 600;
 }
 /* //how we grow */
+
+/* what make us best */
+.make-best {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+.make-best h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 40px;
+}
+.make-best p {
+    font-size: 17px;
+    color: #fff;
+}
+.make-best img {
+    width: 64px;
+    height: 64px;
+}
+.make-best-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.make-best-text p {
+    margin-top: 14px;
+    font-size: 17px;
+    line-height: 28px;
+    color: #fff;
+}
+/* //what make us best */
+
+/* how we flourish */
+.how-we-flourish h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #133852;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+.how-we-flourish p {
+    font-size: 17px;
+}
+.how-we-flourish .pills-wrapper {
+    padding: 25px 25px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #133852 !important;
+    color: #fff !important;
+}
+.pills-wrapper .nav-pills .nav-link {
+    padding: 13px 12px;
+    color: #133852;
+}
+.flourish-content ul li {
+    line-height: 33px;
+    list-style: none;
+    font-size: 17px;
+}
+.flourish-content ul li::before {
+    content: '\f00c';
+    font-size: 17px;
+    display: inline-block;
+    color: #133852;
+    font-family: 'FontAwesome';
+    padding-right: 15px;
+}
+/* //how we flourish */
+
+/* phone whatsapp number */
+.phone-whatsapp {
+    background-color: #133852;
+}
+.phone-whatsapp h4 {
+    color: #fff;
+    font-size: 28px;
+}
+.phone-whatsapp .btn-primary {
+    background-color: #fff;
+    padding: 16px 30px;
+    font-weight: 700;
+    border-color: #133852;
+    color: #133852;
+    border-radius: 100px;
+    margin-bottom: 12px;
+}
+.phone-whatsapp img {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 10px;
+}
+/* phone whatsapp number */
+
+/* footer */
+footer {
+    background: url('../images/footer-bg.jpg') no-repeat;
+    padding: 50px 0px;
+    background-position: center center;
+    background-size: cover;
+}
+footer h5 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+footer ul {
+    margin-top: 22px;
+    padding-inline-start: inherit;
+}
+footer ul li {
+    list-style: none;
+    margin-bottom: 14px;
+    color: #eaeaea;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+footer ul li a {
+    color: #eaeaea;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.footer-social li {
+    display: inline-block;
+}
+.footer-social .fa {
+    font-size: 40px;
+    margin: 10px 5px;
+}
+/* //footer */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
