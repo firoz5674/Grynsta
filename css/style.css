@@ -8,14 +8,52 @@ html {
     scroll-behavior: smooth;
 }
 
-/* navbar */
+/* navigation bar & banner */
+
+.home-banner {
+    position: relative;
+    background: url('../images/home/banner.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 770px;
+}
+.home-banner-caption {
+    position: absolute;
+    left: 56%;
+    top: 45%;
+    right: 0;
+    text-align: center;
+}
+.home-banner-caption h1 {
+    font-size: 34px;
+    color: #fff;
+    line-height: 45px;
+}
+.home-banner-caption .btn-primary {
+    width: 150px;
+    background-color: #fb910a;
+    border-color: #fb910a;
+    border-radius: 100px;
+    padding: 10px 18px;
+    margin-right: 6px;
+    margin-top: 16px;
+}
+.home-banner-caption .btn-info {
+    width: 150px;
+    background-color: #133852;
+    border-color: #133852;
+    border-radius: 100px;
+    padding: 10px 18px;
+    margin-top: 16px;
+}
+
 .bg-light {
     background: none !important;
     margin: 10px 0px;
 }
 .bg-light .navbar-nav .nav-link {
     padding: 23px 22px;
-    color: #595959;
+    color: #fff;
     text-transform: capitalize;
     font-weight: 600;
 }
@@ -24,26 +62,16 @@ html {
     font-weight: 600;
 }
 .bg-light .navbar-nav .active .nav-link {
-    color: #1f9725;
+    color: #fff;
     font-weight: 600;
 }
 .navbar-brand img {
     width: 210px;
 }
-/* //navbar */
+/* //navigation bar & banner */
 
 /* home banner */
-.home-banner .carousel-caption{
-    position: absolute;
-    left: 52%;
-    right: 0;
-    top: 32%;
-}
-.home-banner .carousel-caption h1 {
-    color: #fff;
-    font-weight: 600;
-    /* font-size: 36px; */
-}
+
 /* //home banner */
 
 /* CTA line */
@@ -109,6 +137,19 @@ html {
     margin-top: 14px;
     text-align: justify;
 }
+.how-we-grow ul {
+    padding-inline-start: inherit;
+    margin-top: 15px;
+}
+.how-we-grow ul li {
+    list-style: none;
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+.how-we-grow ul li img {
+    margin-right: 10px;
+    display: inline-block;
+}
 .how-we-grow .card-body {
     padding: 20px 20px;
 }
@@ -116,13 +157,7 @@ html {
     color: #133852;
     font-size: 30px;
 }
-.how-we-grow-list p {
-    margin-top: 10px;
-}
-.how-we-grow-list img {
-    margin-bottom: 10px;
-    display: inline-block;
-}
+
 .how-we-grow-list .btn-info {
     background-color: #b93795;
     border-color: #b93795;
