@@ -6,7 +6,12 @@ li { color: #575757; }
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
+body {
+    overflow-x: hidden;
+}
+
 
 /* navigation bar & banner */
 
