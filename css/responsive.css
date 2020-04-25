@@ -9,7 +9,7 @@
 /* navigation bar & banner */
 @media (min-width: 320px) and (max-width:375px) {
     .home-banner {
-        background: url('../images/home/banner-375.jpg') no-repeat;
+        background: url('../images/home/banner-375.webp') no-repeat;
         height: 500px;
         background-position: center center;
         background-size: cover;
@@ -39,7 +39,7 @@
 }
 @media (min-width: 376px) and (max-width:414px) {
     .home-banner {
-        background: url('../images/home/banner-375.jpg') no-repeat;
+        background: url('../images/home/banner-375.webp') no-repeat;
         height: 500px;
         background-position: center center;
         background-size: cover;
@@ -69,7 +69,7 @@
 }
 @media (min-width: 414px) and (max-width:568px) {
     .home-banner {
-        background: url('../images/home/banner-375.jpg') no-repeat;
+        background: url('../images/home/banner-375.webp') no-repeat;
         height: 500px;
         background-position: center center;
         background-size: cover;
@@ -99,7 +99,7 @@
 }
 @media (min-width: 568px) and (max-width:674px) {
     .home-banner {
-        background: url('../images/home/banner-375.jpg') no-repeat;
+        background: url('../images/home/banner-375.webp') no-repeat;
         height: 500px;
         background-position: center center;
         background-size: cover;

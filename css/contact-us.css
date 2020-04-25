@@ -1,0 +1,41 @@
+
+label {
+    color: #575757;
+}
+.contact ul {
+    margin-top: 30px;
+}
+.contact ul li {
+    color: #575757;
+    list-style: none;
+    margin-bottom: 14px;
+    display: flex;
+}
+.contact .fa {
+    margin-right: 10px;
+}
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.contact h2 span {
+    color: #b93795;
+}
+.contact h2 i {
+    font-style: normal;
+    color: #133852;
+}
+.contact h3 {
+    font-size: 23px;
+}
+.contact h3::after {
+    background-color: #b93795;
+    width: 80px;
+    height: 3px;
+    display: block;
+    content: '';
+    margin: 0 auto;
+    margin-top: 17px;
+}
+

@@ -17,7 +17,7 @@ body {
 
 .home-banner {
     position: relative;
-    background: url('../images/home/banner.jpg') no-repeat;
+    background: url('../images/home/banner.webp') no-repeat;
     background-position: center center;
     background-size: cover;
     height: 770px;
@@ -63,7 +63,7 @@ body {
     font-weight: 600;
 }
 .bg-light .navbar-nav .nav-link:hover {
-    color: #1f9725;
+    color: #133852;
     font-weight: 600;
 }
 .bg-light .navbar-nav .active .nav-link {
@@ -269,7 +269,7 @@ body {
 
 /* footer */
 footer {
-    background: url('../images/footer-bg.jpg') no-repeat;
+    background: url('../images/footer-bg.webp') no-repeat;
     padding: 50px 0px;
     background-position: center center;
     background-size: cover;
