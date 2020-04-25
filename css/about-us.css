@@ -1,4 +1,15 @@
 
+.about-banner .carousel-caption {
+    position: absolute;
+    left: 13%;
+    top: 35%;
+    right: 0;
+    text-align: left;
+}
+.about-banner .carousel-caption h1 {
+    color: #fff;
+}
+
 .about h2 {
     color: #133852;
     font-weight: 600;
@@ -21,7 +32,46 @@
     line-height: 29px;
 }
 
-
+@media (min-width: 320px) and (max-width: 375px) {
+    .about-banner .carousel-caption {
+        position: absolute;
+        left: 6%;
+        top: 12%;
+    }
+    .about-banner .carousel-caption h1 {
+        font-size: 13px;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    .about-banner .carousel-caption {
+        position: absolute;
+        left: 5%;
+        top: 19%;
+    }
+    .about-banner .carousel-caption h1 {
+        font-size: 15px;
+    }
+}
+@media (min-width: 415px) and (max-width: 568px) {
+    .about-banner .carousel-caption {
+        position: absolute;
+        left: 5%;
+        top: 19%;
+    }
+    .about-banner .carousel-caption h1 {
+        font-size: 18px;
+    }
+}
+@media (min-width: 569px) and (max-width: 674px) {
+    .about-banner .carousel-caption {
+        position: absolute;
+        left: 5%;
+        top: 19%;
+    }
+    .about-banner .carousel-caption h1 {
+        font-size: 22px;
+    }
+}
 
 
 

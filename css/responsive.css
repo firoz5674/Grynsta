@@ -69,7 +69,7 @@
 }
 @media (min-width: 414px) and (max-width:568px) {
     .home-banner {
-        background: url('../images/home/banner-375.webp') no-repeat;
+        background: url('../images/home/banner-568.jpg') no-repeat;
         height: 500px;
         background-position: center center;
         background-size: cover;

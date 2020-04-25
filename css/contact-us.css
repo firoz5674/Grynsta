@@ -1,4 +1,16 @@
 
+.contact-banner .carousel-caption {
+    position: absolute;
+    top: 35%;
+    left: 56%;
+    right: 0;
+}
+.contact-banner .carousel-caption h1 {
+    font-size: 30px;
+    color: #133852;
+    font-weight: 600;
+}
+
 label {
     color: #575757;
 }
@@ -10,6 +22,7 @@ label {
     list-style: none;
     margin-bottom: 14px;
     display: flex;
+    font-size: 17px;
 }
 .contact .fa {
     margin-right: 10px;
@@ -39,3 +52,48 @@ label {
     margin-top: 17px;
 }
 
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .contact-banner .carousel-caption {
+        position: absolute;
+        left: 45%;
+        top: 14%;
+    }
+    .contact-banner .carousel-caption h1 {
+        font-size: 9px;
+        font-weight: 500;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    .contact-banner .carousel-caption {
+        position: absolute;
+        left: 49%;
+        top: 14%;
+    }
+    .contact-banner .carousel-caption h1 {
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
+@media (min-width: 415px) and (max-width: 568px) {
+    .contact-banner .carousel-caption {
+        position: absolute;
+        left: 49%;
+        top: 8%;
+    }
+    .contact-banner .carousel-caption h1 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+@media (min-width: 569px) and (max-width: 674px) {
+    .contact-banner .carousel-caption {
+        position: absolute;
+        left: 49%;
+        top: 14%;
+    }
+    .contact-banner .carousel-caption h1 {
+        font-size: 19px;
+        font-weight: 500;
+    }
+}
