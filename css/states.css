@@ -9,7 +9,7 @@
 /* inner state banner caption */
 .state-inner-banner .carousel-caption {
     position: absolute;
-    top: 28%;
+    top: 48%;
     left: 60%;
     right: 0;
 }
@@ -52,33 +52,43 @@ main .btn-secondary {
 @media (min-width: 320px) and (max-width: 375px) {
     .total-state-banner .carousel-caption {
         position: absolute;
-        top: 10%;
+        top: 6%;
     }
     .total-state-banner .carousel-caption h1 {
         font-size: 10px;
     }
     .state-inner-banner .carousel-caption {
         position: absolute;
-        top: 13%;
+        top: 7%;
     }
     .state-inner-banner .carousel-caption h1 {
         font-size: 10px;
+    }
+    main .btn-secondary {
+        font-size: 11px;
+        margin: 10px 3px;
+        width: 130px;
     }
 }
 @media (min-width: 376px) and (max-width: 414px) {
     .total-state-banner .carousel-caption {
         position: absolute;
-        top: 11%;
+        top: 8%;
     }
     .total-state-banner .carousel-caption h1 {
         font-size: 12px;
     }
     .state-inner-banner .carousel-caption {
         position: absolute;
-        top: 14%;
+        top: 9%;
     }
     .state-inner-banner .carousel-caption h1 {
         font-size: 12px;
+    }
+    main .btn-secondary {
+        font-size: 14px;
+        margin: 10px 3px;
+        width: 150px;
     }
 }
 @media (min-width: 415px) and (max-width: 568px) {
@@ -91,10 +101,18 @@ main .btn-secondary {
     }
     .state-inner-banner .carousel-caption {
         position: absolute;
-        top: 13%;
+        top: 10%;
+    }
+    .state-inner-banner .carousel-caption h1 {
+        font-size: 13px;
     }
     .state-inner-banner .carousel-caption h1 {
         font-size: 15px;
+    }
+    main .btn-secondary {
+        font-size: 16px;
+        margin: 10px 3px;
+        width: 176px;
     }
 }
 
