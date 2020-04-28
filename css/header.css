@@ -1,7 +1,23 @@
 
-.bg-light .navbar-nav .nav-link {
-    color: #133852 !important;
-    font-weight: 600;
+.bg-light {
+    background: none !important;
 }
-
+.bg-light .navbar-nav .nav-link {
+    padding: 15px 8px;
+    color: #133852 !important;
+    text-transform: capitalize;
+	font-weight: 700;
+	margin: 13px 8px;
+}
+.bg-light .navbar-nav .nav-link:hover {
+    color: #133852;
+    font-weight: 700;
+}
+.bg-light .navbar-nav .active .nav-link {
+    color: #fff;
+    font-weight: 700;
+}
+.navbar-brand img {
+    width: 210px;
+}
 

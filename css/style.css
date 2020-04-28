@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5, h6 { color: #424242; }
 p { color: #575757; font-weight: 300; }
 li { color: #575757; }
 
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -252,7 +253,7 @@ body {
 }
 .phone-whatsapp .btn-primary {
     background-color: #fff;
-    padding: 16px 30px;
+    padding: 17px 28px;
     font-weight: 700;
     border-color: #133852;
     color: #133852;
