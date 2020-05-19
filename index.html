@@ -20,8 +20,7 @@
   <!-- navigation bar & banner -->
   <section class="container-fluid home-banner">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html"><img src="./images/logo_white.webp" alt="qb"
-          class="img-fluid"></a>
+      <a class="navbar-brand" href="index.html"><img src="./images/logo_white.webp" alt="qb" class="img-fluid"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
         aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -55,11 +54,124 @@
     </nav>
     <div class="home-banner-caption">
       <h1>Buy Instagram Followers - Real, Active, Targeted, Organic & Engaged</h1>
-      <a href="#" class="btn btn-primary">Learn More</a>
-      <a href="#" class="btn btn-info">Watch Video</a>
+      <a href="#buy-insta-followers" class="btn btn-primary">Buy Instagram Followers</a>
+      <a href="#insta-consultant" class="btn btn-info">Instagram Consultant</a>
     </div>
   </section>
   <!-- //navigation bar & banner -->
+
+  <!-- instagram followers & instagram consultant form -->
+  <div class="container">
+    <div class="col-md-12">
+      <div class="row justify-content-center" id="buy-insta-followers">
+        <ul class="nav nav-pills mt-5" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-buy-youtube-sub-tab" data-toggle="pill"
+              href="#pills-buy-instagram-followers" role="tab" aria-controls="pills-brands" aria-selected="true">Buy
+              Instagram Followers</a>
+          </li>
+          <li class="nav-item" id="insta-consultant">
+            <a class="nav-link" id="pills-youtube-consultant-tab" data-toggle="pill" href="#pills-instagram-consultant"
+              role="tab" aria-controls="pills-creators" aria-selected="false">Instagram Consultant</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12 pb-4">
+    <div class="row justify-content-center">
+        <div class="col-md-10 mt-5">
+            <div class="tab-content" id="pills-tabContent">
+
+                <!-- buy Instagram Followers tab content start -->
+
+                <div class="tab-pane fade show active" id="pills-buy-instagram-followers" role="tabpanel"
+                    aria-labelledby="pills-brands-tab">
+                    <form class="rs-contact-form" onsubmit="event.preventDefault()" ;>
+                        <div class="form-group pl-5 pr-4">
+                            <input type="text" class="form-control" placeholder="Name" id="name" required />
+                        </div>
+                        <div class="form-group pl-5 pr-4">
+                            <input type="email" class="form-control" placeholder="Email Address" id="email"
+                                required />
+                        </div>
+                        <div class="form-group pl-5 pr-4">
+                            <input type="number" class="form-control" placeholder="Phone Number" id="phone"
+                                required />
+                        </div>
+                        <div class="form-group pl-5 pr-4">
+                            <input type="text" class="form-control" placeholder="Youtube Channel Link"
+                                id="ytl" required />
+                        </div>
+                        <div class="form-group pl-5 pr-2">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-11 w-95 px-0">
+                                        <select class="form-control" name="" id="subType"
+                                            onchange="updateInfoTitle()">
+                                            <option value="" disabled selected>Select Subscribers Type</option>
+                                            <option value="general">General Subscribers</option>
+                                            <option value="targeted">Targeted Subscribers</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-1 px-0" id="info-title" title="Please select subsciber type">
+                                        <i class="fa fa-info-circle text-dark fa-1x pl-2 pt-2"
+                                            aria-hidden="true" style="font-size: 22px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group pl-5 pr-4">
+                            <input type="number" class="form-control"
+                                placeholder="Required Youtube Subscribers" id="rys" required />
+                        </div>
+                        <div class="form-group pl-5 pr-4">
+                            <textarea cols="6" rows="8" class="form-control" placeholder="Message"
+                                id="message" required></textarea>
+                        </div>
+                        <div class="buy-youtube-sub-btn-wrapper mr-3 pr-2 text-right">
+                            <button type="button" name="" id="buy-youtube" class="btn btn-primary submit-btn" btn-lg btn-block" onclick="sendQueryToServer('buy instagram followers')">Buy Instagram Followers</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- buy Instagram Followers tab content end -->
+
+                <!-- buy instagram consultant tab content start -->
+
+                <div class="tab-pane fade show" id="pills-instagram-consultant" role="tabpanel"
+                    aria-labelledby="pills-brands-tab">
+                    <form class="rs-contact-form" onsubmit="event.preventDefault()" ;>
+                        <div class="form-group pl-5 pr-4">
+                            <input type="text" class="form-control" placeholder="Name" id="name" required />
+                        </div>
+                        <div class="form-group pl-5 pr-4">
+                            <input type="email" class="form-control" placeholder="Email Address" id="email"
+                                required />
+                        </div>
+                        <div class="form-group pl-5 pr-4">
+                            <input type="number" class="form-control" placeholder="Phone Number" id="phone"
+                                required />
+                        </div>
+                        <div class="form-group pl-5 pr-4">
+                            <input type="text" class="form-control" placeholder="Youtube Channel Link"
+                                id="ytl" required />
+                        </div>
+                        <div class="form-group pl-5 pr-4">
+                            <textarea cols="6" rows="8" class="form-control" placeholder="Message"
+                                id="message" required></textarea>
+                        </div>
+                        <div class="consultant-btn-wrapper mr-3 pr-2 text-right">
+                            <button type="button" name="" id="" class="btn btn-primary submit-btn" btn-lg btn-block" onclick="sendQueryToServer('instagram consulting')">Get a callback from Instagram consultant</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- buy instagram consultant tab content end -->
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- //instagram followers & instagram consultant form -->
 
 
   <!-- CTA line -->
@@ -150,7 +262,7 @@
             <ul>
               <li>
                 <img src="./images/home/real-people.webp" class="img-fluid" alt="">
-                 Real People & no Robots
+                Real People & no Robots
               </li>
               <li>
                 <img src="./images/home/target-audience.webp" class="img-fluid" alt="">
@@ -430,6 +542,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="./js/common.js"></script>
 
 </body>
 

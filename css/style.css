@@ -36,20 +36,20 @@ body {
     line-height: 45px;
 }
 .home-banner-caption .btn-primary {
-    width: 150px;
+    width: 230px;
     background-color: #fb910a;
     border-color: #fb910a;
     border-radius: 100px;
-    padding: 10px 18px;
+    padding: 10px 10px;
     margin-right: 6px;
     margin-top: 16px;
 }
 .home-banner-caption .btn-info {
-    width: 150px;
+    width: 230px;
     background-color: #133852;
     border-color: #133852;
     border-radius: 100px;
-    padding: 10px 18px;
+    padding: 10px 10px;
     margin-top: 16px;
 }
 

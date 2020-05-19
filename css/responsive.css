@@ -40,7 +40,7 @@
     }
     .home-banner-caption {
         position: absolute;
-        top: 71%;
+        top: 67%;
         right: 0;
         left: 0;
     }
@@ -49,13 +49,14 @@
         line-height: 22px;
     }
     .home-banner-caption .btn-primary {
-        width: 113px;
+        width: 187px;
         font-size: 13px;
         padding: 7px 13px;
         margin-top: 3px;
+        margin-bottom: 4px;
     }
     .home-banner-caption .btn-info {
-        width: 113px;
+        width: 187px;
         font-size: 13px;
         padding: 7px 13px;
         margin-top: 3px;
