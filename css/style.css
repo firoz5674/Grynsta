@@ -55,7 +55,6 @@ body {
 
 .bg-light {
     background: none !important;
-    margin: 10px 0px;
 }
 .bg-light .navbar-nav .nav-link {
     padding: 23px 22px;
@@ -110,9 +109,9 @@ body {
     font-weight: 500;
     line-height: 36px;
     color: #133852;
+    margin-bottom: 30px;
 }
 .simple-steps-text h4 {
-    margin-top: 110px;
     color: #133852;
 }
 .simple-steps-text p {
@@ -120,6 +119,15 @@ body {
     margin-top: 15px;
     line-height: 28px;
     font-weight: 400;
+}
+.simple-steps-heading-1 {
+    margin-top: 134px;
+}
+.simple-steps-heading-2 {
+    margin-top: 134px;
+}
+.simple-steps-heading-3 {
+    margin-top: 134px;
 }
 /* //simple steps */
 

@@ -9,7 +9,7 @@
 /* inner state banner caption */
 .state-inner-banner .carousel-caption {
     position: absolute;
-    top: 48%;
+    top: 30%;
     left: 60%;
     right: 0;
 }
@@ -29,6 +29,7 @@ main ul li {
 main .btn-group {
     display: inline-block;
     margin: 5px;
+    text-align: center;
 }
 main .btn-secondary {
     background-color: #133852;
@@ -65,9 +66,9 @@ main .btn-secondary {
         font-size: 10px;
     }
     main .btn-secondary {
-        font-size: 11px;
-        margin: 10px 3px;
-        width: 130px;
+        font-size: 14px;
+        width: 126px;
+        padding: 12px 5px;
     }
 }
 @media (min-width: 376px) and (max-width: 414px) {
@@ -87,8 +88,8 @@ main .btn-secondary {
     }
     main .btn-secondary {
         font-size: 14px;
-        margin: 10px 3px;
-        width: 150px;
+        width: 145px;
+        padding: 12px 5px;
     }
 }
 @media (min-width: 415px) and (max-width: 568px) {
@@ -110,19 +111,15 @@ main .btn-secondary {
         font-size: 15px;
     }
     main .btn-secondary {
-        font-size: 16px;
-        margin: 10px 3px;
-        width: 176px;
+        font-size: 15px;
+        width: 145px;
+        padding: 12px 5px;
     }
 }
 
 
 @media (max-width: 768px) {
     .container-fluid {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .container {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }

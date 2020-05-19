@@ -1,0 +1,194 @@
+
+html {
+    overflow-x: hidden !important;
+}
+body {
+    overflow: hidden !important;
+}
+h1, h2, h3 {
+    color: #3a3a3a;
+    font-size: 30px;
+    font-weight: 600;
+}
+p {
+    color: #565656;
+    font-size: 17px;
+    line-height: 29px;
+    text-align: justify;
+}
+li {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #565656;
+    line-height: 29px;
+}
+
+/* youtube consulting main page */
+main h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    /* margin-top: 100px; */
+}
+main p {
+    line-height: 29px;
+    text-align: center;
+}
+.yc-grid {
+    text-align: center;
+}
+
+.ic-grid a {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-top: 10px;
+    color: #0d35c7;
+    display: inline-block;
+}
+
+.how-our-insta p {
+    color: #133852;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 27px;
+}
+.how-our-insta h2 {
+    font-weight: 600;
+}
+
+.our-insta-growth h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.our-insta-growth h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .ic-banner {
+        margin-top: 63px;
+    }
+    main h1 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .how-our-insta h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .our-youtube-insta h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .our-youtube-insta h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .ic-grid a {
+        margin-bottom: 20px;
+    }
+    .ic-grid {
+        text-align: center;
+    }
+    .our-insta-growth h3 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    .ic-banner {
+        margin-top: 66px;
+    }
+    .ic-grid a {
+        margin-bottom: 20px;
+    }
+    .ic-grid {
+        text-align: center;
+    }
+    .our-insta-growth h3 {
+        font-size: 22px;
+        line-height: 31px;
+    }
+}
+@media (min-width: 415px) and (max-width: 568px) {
+    .ic-banner {
+        margin-top: 79px;
+    }
+    .ic-grid a {
+        margin-bottom: 20px;
+    }
+    .ic-grid {
+        text-align: center;
+    }
+    .our-insta-growth h3 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+}
+
+
+/* All 4 inner pages heading css */
+@media (min-width: 320px) and (max-width: 375px) {
+    h1 {
+        font-size: 20px !important;
+        line-height: 28px !important;
+        font-weight: 600 !important;
+    }
+    h2 {
+        font-size: 20px !important;
+        line-height: 28px !important;
+        font-weight: 600 !important;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    h1 {
+        font-size: 22px !important;
+        line-height: 29px !important;
+        font-weight: 600 !important;
+    }
+    h2 {
+        font-size: 22px !important;
+        line-height: 29px !important;
+        font-weight: 600 !important;
+    }
+}
+@media (min-width: 415px) and (max-width: 568px) {
+    h1 {
+        font-size: 22px !important;
+        line-height: 29px !important;
+        font-weight: 600 !important;
+    }
+    h2 {
+        font-size: 23px !important;
+        line-height: 29px !important;
+        font-weight: 600 !important;
+    }
+}
+/* //all 4 inner pages heading css */
+
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    ul {
+        padding-inline-start: inherit;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

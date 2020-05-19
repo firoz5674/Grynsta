@@ -1,6 +1,15 @@
 
-
-
+.city-banner .carousel-caption {
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    right: 0;
+}
+.city-content p {
+    color: #656565;
+    font-size: 17px;
+    line-height: 30px;
+}
 
 
 

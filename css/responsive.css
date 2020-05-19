@@ -1,4 +1,4 @@
-
+/* home page common css for all mobiles */
 @media (max-width: 768px) {
     .container-fluid {
         padding-left: 0;
@@ -7,12 +7,30 @@
     .navbar {
         padding: 0px 8px 0px 0px;
     }
+    .bg-light {
+        margin-top: 0px;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #eaeaea;
+    }
+    #navbarContent {
+        position: absolute;
+        width: 100%;
+        top: 64px;
+        background-color: #020c20;
+        z-index: 9999;
+    }
+    .bg-light .navbar-nav .nav-link {
+        border-bottom: 1px solid #053544;
+        padding: 10px 15px;
+    }
 }
+/* //home page common css for all mobiles */
 
 /* navigation bar & banner */
 @media (min-width: 320px) and (max-width:375px) {
     .navbar-brand img {
-        width: 160px;
+        width: 150px;
     }
     .home-banner {
         background: url('../images/home/banner-375.webp') no-repeat;
@@ -45,7 +63,7 @@
 }
 @media (min-width: 376px) and (max-width:414px) {
     .navbar-brand img {
-        width: 175px;
+        width: 160px;
     }
     .home-banner {
         background: url('../images/home/banner-375.webp') no-repeat;
@@ -78,7 +96,7 @@
 }
 @media (min-width: 414px) and (max-width:568px) {
     .navbar-brand img {
-        width: 180px;
+        width: 170px;
     }
     .home-banner {
         background: url('../images/home/banner-568.jpg') no-repeat;
@@ -186,7 +204,6 @@
         margin-top: 30px;
     }
     .simple-steps h4 {
-        margin-top: 37px;
         font-size: 19px;
         line-height: 28px;
     }
@@ -197,6 +214,15 @@
     }
     .simple-steps .offset-1 {
         margin-left: 0px;
+    }
+    .simple-steps-heading-1 {
+        margin-top: 20px;
+    }
+    .simple-steps-heading-2 {
+        margin-top: 10px;
+    }
+    .simple-steps-heading-3 {
+        margin-top: 20px;
     }
 }
 @media (min-width: 376px) and (max-width: 414px) {
@@ -213,7 +239,6 @@
         margin-top: 30px;
     }
     .simple-steps h4 {
-        margin-top: 37px;
         font-size: 19px;
         line-height: 28px;
     }
@@ -224,6 +249,15 @@
     }
     .simple-steps .offset-1 {
         margin-left: 0px;
+    }
+    .simple-steps-heading-1 {
+        margin-top: 20px;
+    }
+    .simple-steps-heading-2 {
+        margin-top: 10px;
+    }
+    .simple-steps-heading-3 {
+        margin-top: 20px;
     }
 }
 @media (min-width: 415px) and (max-width: 568px) {
@@ -240,7 +274,6 @@
         margin-top: 30px;
     }
     .simple-steps h4 {
-        margin-top: 37px;
         font-size: 23px;
         line-height: 31px;
     }
@@ -251,6 +284,15 @@
     }
     .simple-steps .offset-1 {
         margin-left: 0px;
+    }
+    .simple-steps-heading-1 {
+        margin-top: 20px;
+    }
+    .simple-steps-heading-2 {
+        margin-top: 10px;
+    }
+    .simple-steps-heading-3 {
+        margin-top: 20px;
     }
 }
 @media (min-width: 569px) and (max-width: 674px) {
@@ -267,7 +309,6 @@
         margin-top: 30px;
     }
     .simple-steps h4 {
-        margin-top: 37px;
         font-size: 26px;
         line-height: 36px;
     }
@@ -278,6 +319,15 @@
     }
     .simple-steps .offset-1 {
         margin-left: 0px;
+    }
+    .simple-steps-heading-1 {
+        margin-top: 20px;
+    }
+    .simple-steps-heading-2 {
+        margin-top: 10px;
+    }
+    .simple-steps-heading-3 {
+        margin-top: 20px;
     }
 }
 

@@ -9,7 +9,7 @@ p {
 .bg-light .navbar-nav .nav-link {
     padding: 15px 8px;
     color: #133852 !important;
-    text-transform: capitalize;
+    text-transform: uppercase;
 	font-weight: 700;
 	margin: 13px 8px;
 }
@@ -28,11 +28,21 @@ p {
 
 @media (min-width: 320px) and (max-width: 375px) {
     .navbar-brand img {
-        width: 130px;
+        width: 150px;
     }
 }
 
-
+#navbarContent {
+    position: absolute;
+    width: 100%;
+    top: 64px;
+    background-color: #020c20;
+    z-index: 9999;
+}
+.bg-light .navbar-nav .nav-link {
+    border-bottom: 1px solid #053544;
+    padding: 10px 15px;
+}
 
 
 
