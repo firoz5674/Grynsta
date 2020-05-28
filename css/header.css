@@ -24,6 +24,20 @@ p {
 .navbar-brand img {
     width: 210px;
 }
+.common-cta-btn .btn-info {
+    padding: 9px 23px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 100px;
+    border-color: #17a2b8;
+  }
+  .common-cta-btn .btn-danger {
+    padding: 9px 23px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 100px;
+    margin-right: 10px;
+  }
 
 
 @media (min-width: 320px) and (max-width: 375px) {
