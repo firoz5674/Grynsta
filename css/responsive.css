@@ -22,7 +22,11 @@
     }
     .bg-light .navbar-nav .nav-link {
         border-bottom: 1px solid #053544;
+        color: #d9d9d9;
         padding: 10px 15px;
+    }
+    .bg-light .navbar-nav .active .nav-link {
+        color: #d9d9d9;
     }
 }
 /* //home page common css for all mobiles */
@@ -33,14 +37,14 @@
         width: 150px;
     }
     .home-banner {
-        background: url('../images/home/banner-375.webp') no-repeat;
+        background: url('../images/home/banner-375.jpg') no-repeat;
         height: 500px;
         background-position: center center;
         background-size: cover;
     }
     .home-banner-caption {
         position: absolute;
-        top: 67%;
+        top: 62%;
         right: 0;
         left: 0;
     }
@@ -52,7 +56,7 @@
         width: 187px;
         font-size: 13px;
         padding: 7px 13px;
-        margin-top: 3px;
+        margin-top: 10px;
         margin-bottom: 4px;
     }
     .home-banner-caption .btn-info {
@@ -67,14 +71,14 @@
         width: 160px;
     }
     .home-banner {
-        background: url('../images/home/banner-375.webp') no-repeat;
+        background: url('../images/home/banner-375.jpg') no-repeat;
         height: 500px;
         background-position: center center;
         background-size: cover;
     }
     .home-banner-caption {
         position: absolute;
-        top: 74%;
+        top: 65%;
         right: 0;
         left: 0;
     }
@@ -100,14 +104,14 @@
         width: 170px;
     }
     .home-banner {
-        background: url('../images/home/banner-568.jpg') no-repeat;
+        background: url('../images/home/banner-375.jpg') no-repeat;
         height: 500px;
         background-position: center center;
         background-size: cover;
     }
     .home-banner-caption {
         position: absolute;
-        top: 74%;
+        top: 64%;
         right: 0;
         left: 0;
     }
@@ -116,16 +120,16 @@
         line-height: 22px;
     }
     .home-banner-caption .btn-primary {
-        width: 113px;
+        width: 188px;
         font-size: 13px;
         padding: 7px 13px;
-        margin-top: 8px;
+        margin-top: 17px;
     }
     .home-banner-caption .btn-info {
-        width: 113px;
+        width: 174px;
         font-size: 13px;
         padding: 7px 13px;
-        margin-top: 8px;
+        margin-top: 17px;
     }
 }
 @media (min-width: 568px) and (max-width:674px) {

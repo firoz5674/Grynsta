@@ -18,21 +18,21 @@ body {
 
 .home-banner {
     position: relative;
-    background: url('../images/home/banner.webp') no-repeat;
+    background: url('../images/home/banner.jpg') no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 770px;
+    height: 810px;
 }
 .home-banner-caption {
     position: absolute;
     left: 56%;
-    top: 45%;
+    top: 42%;
     right: 0;
     text-align: center;
 }
 .home-banner-caption h1 {
     font-size: 34px;
-    color: #fff;
+    color: #133852;
     line-height: 45px;
 }
 .home-banner-caption .btn-primary {
@@ -58,17 +58,18 @@ body {
 }
 .bg-light .navbar-nav .nav-link {
     padding: 23px 22px;
-    color: #fff;
+    color: #133852;
     text-transform: capitalize;
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .bg-light .navbar-nav .nav-link:hover {
     color: #fff;
     font-weight: 600;
 }
 .bg-light .navbar-nav .active .nav-link {
-    color: #fff;
-    font-weight: 600;
+    color: #133852;
+    font-weight: 700;
 }
 .navbar-brand img {
     width: 210px;
@@ -119,15 +120,28 @@ body {
     margin-top: 15px;
     line-height: 28px;
     font-weight: 400;
+    text-align: justify;
+}
+.simple-steps-text .btn-primary {
+    background-color: #fff;
+    border-color: #fff;
+    color: #133852;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+.simple-steps-text [aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
 }
 .simple-steps-heading-1 {
-    margin-top: 134px;
+    margin-top: 55px;
 }
 .simple-steps-heading-2 {
-    margin-top: 160px;
+    margin-top: 80px;
 }
 .simple-steps-heading-3 {
-    margin-top: 134px;
+    margin-top: 55px;
 }
 /* //simple steps */
 
