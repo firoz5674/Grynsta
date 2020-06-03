@@ -1,4 +1,7 @@
 
+p { color: #565656; font-size: 17px; }
+li { color: #565656; }
+
 .about-banner .carousel-caption {
     position: absolute;
     left: 13%;
@@ -13,7 +16,8 @@
 .about h2 {
     color: #133852;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 28px;
+    line-height: 37px;
 }
 .about h4 {
     font-size: 19px;
@@ -22,10 +26,20 @@
     font-weight: 600;
 }
 .about h3 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
     margin-bottom: 14px;
     color: #444;
+    display: inline-block;
+    margin: 0;
+}
+ul {
+    padding-inline-start: initial;
+}
+ul li {
+    font-size: 17px;
+    list-style: none;
+    margin-bottom: 8px;
 }
 .about p {
     font-size: 17px;

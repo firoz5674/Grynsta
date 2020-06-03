@@ -82,9 +82,9 @@ body {
 
 /* CTA line */
 .cta-line h2 {
-    line-height: 48px;
-    font-size: 30px;
-    font-weight: 500;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 600;
     border-top: 1px solid #d8d8d8;
     border-bottom: 1px solid #d8d8d8;
     padding: 14px 0px;

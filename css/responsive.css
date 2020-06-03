@@ -11,7 +11,8 @@
         margin-top: 0px;
     }
     .navbar-light .navbar-toggler {
-        background-color: #eaeaea;
+        background-color: #133852;
+        border-radius: 0px;
     }
     #navbarContent {
         position: absolute;
@@ -27,6 +28,10 @@
     }
     .bg-light .navbar-nav .active .nav-link {
         color: #d9d9d9;
+    }
+    .fa-bars {
+        color: #fff;
+        font-size: 22px !important;
     }
 }
 /* //home page common css for all mobiles */
@@ -50,7 +55,8 @@
     }
     .home-banner-caption h1 {
         font-size: 18px;
-        line-height: 22px;
+        line-height: 25px;
+        padding: 0px 2px;
     }
     .home-banner-caption .btn-primary {
         width: 187px;
@@ -84,7 +90,8 @@
     }
     .home-banner-caption h1 {
         font-size: 18px;
-        line-height: 22px;
+        line-height: 26px;
+        padding: 0px 3px;
     }
     .home-banner-caption .btn-primary {
         width: 113px;
@@ -117,7 +124,8 @@
     }
     .home-banner-caption h1 {
         font-size: 18px;
-        line-height: 22px;
+        line-height: 28px;
+        padding: 0px 4px;
     }
     .home-banner-caption .btn-primary {
         width: 188px;
@@ -171,19 +179,19 @@
 @media (min-width: 320px) and (max-width: 375px) {
     .cta-line h2 {
         font-size: 17px;
-        line-height: 25px;
+        line-height: 29px;
     }
 }
 @media (min-width: 376px) and (max-width: 414px) {
     .cta-line h2 {
         font-size: 20px;
-        line-height: 28px;
+        line-height: 30px;
     }
 }
 @media (min-width: 415px) and (max-width: 568px) {
     .cta-line h2 {
         font-size: 22px;
-        line-height: 31px;
+        line-height: 33px;
     }
 }
 @media (min-width: 569px) and (max-width: 674px) {

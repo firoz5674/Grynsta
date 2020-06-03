@@ -67,6 +67,17 @@ p {
     .navbar-light .navbar-toggler {
         background-color: #eaeaea;
     }
+    .fa-bars {
+        color: #fff;
+        font-size: 22px !important;
+    }
+    .navbar-light .navbar-toggler {
+        background-color: #133852;
+        border-radius: 0px;
+    }
+    .common-cta-btn .btn-danger {
+        margin-bottom: 12px;
+    }
 }
 
 

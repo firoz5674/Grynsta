@@ -53,10 +53,10 @@ main .btn-secondary {
 @media (min-width: 320px) and (max-width: 375px) {
     .total-state-banner .carousel-caption {
         position: absolute;
-        top: 6%;
+        top: 12%;
     }
     .total-state-banner .carousel-caption h1 {
-        font-size: 10px;
+        font-size: 12px;
     }
     .state-inner-banner .carousel-caption {
         position: absolute;
@@ -74,7 +74,7 @@ main .btn-secondary {
 @media (min-width: 376px) and (max-width: 414px) {
     .total-state-banner .carousel-caption {
         position: absolute;
-        top: 8%;
+        top: 12%;
     }
     .total-state-banner .carousel-caption h1 {
         font-size: 12px;
