@@ -254,6 +254,7 @@ body {
     line-height: 33px;
     list-style: none;
     font-size: 17px;
+    display: flex;
 }
 .flourish-content ul li::before {
     content: '\f00c';
